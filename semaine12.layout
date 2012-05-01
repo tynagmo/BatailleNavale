@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="bateau.c" open="1" top="0" tabpos="10">
+		<Cursor position="43" topLine="0" />
+	</File>
+	<File name="coniocouleur.h" open="1" top="0" tabpos="6">
+		<Cursor position="181" topLine="8" />
+	</File>
+	<File name="couleurs.c" open="1" top="0" tabpos="9">
+		<Cursor position="193" topLine="2" />
+	</File>
+	<File name="couleurs.h" open="1" top="0" tabpos="3">
+		<Cursor position="55" topLine="0" />
+	</File>
+	<File name="lietrec.c" open="1" top="0" tabpos="7">
+		<Cursor position="189" topLine="0" />
+	</File>
+	<File name="lietrec.h" open="1" top="0" tabpos="8">
+		<Cursor position="1913" topLine="0" />
+	</File>
+	<File name="listePions.h" open="1" top="0" tabpos="7">
+		<Cursor position="115" topLine="0" />
+	</File>
+	<File name="main.c" open="1" top="0" tabpos="1">
+		<Cursor position="910" topLine="0" />
+	</File>
+	<File name="parametre.c" open="1" top="0" tabpos="11">
+		<Cursor position="2014" topLine="82" />
+	</File>
+	<File name="parametre.h" open="1" top="0" tabpos="2">
+		<Cursor position="4437" topLine="119" />
+	</File>
+	<File name="util.c" open="1" top="0" tabpos="13">
+		<Cursor position="19" topLine="0" />
+	</File>
+	<File name="util.h" open="1" top="0" tabpos="12">
+		<Cursor position="420" topLine="0" />
+	</File>
+	<File name="vueGrille.c" open="1" top="0" tabpos="15">
+		<Cursor position="546" topLine="0" />
+	</File>
+	<File name="vueGrille.h" open="1" top="1" tabpos="14">
+		<Cursor position="77" topLine="0" />
+	</File>
+	<File name="vuev1.c" open="1" top="0" tabpos="4">
+		<Cursor position="2147" topLine="57" />
+	</File>
+	<File name="vuev1.h" open="1" top="0" tabpos="5">
+		<Cursor position="1219" topLine="53" />
+	</File>
+</CodeBlocks_layout_file>

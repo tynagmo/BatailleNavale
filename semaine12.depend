@@ -1,0 +1,254 @@
+# depslib dependency file v1.0
+1296200519 source:g:\documents and settings\fabrice\bureau\cours c 2010 2011\projet c\codage\semaine12\parametre.c
+	"parametre.h"
+
+1296127110 g:\documents and settings\fabrice\bureau\cours c 2010 2011\projet c\codage\semaine12\parametre.h
+	<stdio.h>
+	"pion.h"
+	"couleurs.h"
+
+1296124700 g:\documents and settings\fabrice\bureau\cours c 2010 2011\projet c\codage\semaine12\pion.h
+
+1295966809 source:g:\documents and settings\fabrice\bureau\cours c 2010 2011\projet c\codage\semaine12\pion.c
+	"pion.h"
+
+1296114237 source:g:\documents and settings\fabrice\bureau\cours c 2010 2011\projet c\codage\semaine12\util.c
+	"util.h"
+	"coniocouleur.h"
+
+1295966703 g:\documents and settings\fabrice\bureau\cours c 2010 2011\projet c\codage\semaine12\util.h
+	<time.h>
+	<stdlib.h>
+
+1296123200 source:g:\documents and settings\fabrice\bureau\cours c 2010 2011\projet c\codage\semaine12\listepions.c
+	"listePions.h"
+	"util.h"
+
+1296125427 g:\documents and settings\fabrice\bureau\cours c 2010 2011\projet c\codage\semaine12\listepions.h
+	"pion.h"
+
+1296200527 source:g:\documents and settings\fabrice\bureau\cours c 2010 2011\projet c\codage\semaine12\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"util.h"
+	"listePions.h"
+	"pion.h"
+	"parametre.h"
+	"vuev1.h"
+
+1296116751 g:\documents and settings\fabrice\bureau\cours c 2010 2011\projet c\codage\semaine12\coniocouleur.h
+
+1296122336 g:\documents and settings\fabrice\bureau\cours c 2010 2011\projet c\codage\semaine12\couleurs.h
+	"coniocouleur.h"
+
+1296122348 source:g:\documents and settings\fabrice\bureau\cours c 2010 2011\projet c\codage\semaine12\couleurs.c
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"couleurs.h"
+
+1296120585 source:g:\documents and settings\fabrice\bureau\cours c 2010 2011\projet c\codage\semaine12\coniocouleur.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<conio.h>
+	"coniocouleur.h"
+
+1296126443 g:\documents and settings\fabrice\bureau\cours c 2010 2011\projet c\codage\semaine12\vuev1.h
+	"listePions.h"
+	"pion.h"
+	"parametre.h"
+
+1296127079 source:g:\documents and settings\fabrice\bureau\cours c 2010 2011\projet c\codage\semaine12\vuev1.c
+	"vuev1.h"
+
+1296201453 source:g:\documents and settings\fabrice\bureau\cours c 2010 2011\projet c\codage\semaine12\lietrec.c
+	<stdio.h>
+	"coniocouleur.h"
+	"lietrec.h"
+
+1296201669 g:\documents and settings\fabrice\bureau\cours c 2010 2011\projet c\codage\semaine12\lietrec.h
+	<stdio.h>
+	"coniocouleur.h"
+
+1296120586 source:c:\users\mdm\desktop\cours c 2010 2011\projet c\codage\semaine12 projet console profs - copie\semaine12\coniocouleur.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<conio.h>
+	"coniocouleur.h"
+
+1296116752 c:\users\mdm\desktop\cours c 2010 2011\projet c\codage\semaine12 projet console profs - copie\semaine12\coniocouleur.h
+
+1296201454 source:c:\users\mdm\desktop\cours c 2010 2011\projet c\codage\semaine12 projet console profs - copie\semaine12\lietrec.c
+	<stdio.h>
+	"coniocouleur.h"
+	"lietrec.h"
+
+1296201670 c:\users\mdm\desktop\cours c 2010 2011\projet c\codage\semaine12 projet console profs - copie\semaine12\lietrec.h
+	<stdio.h>
+	"coniocouleur.h"
+
+1296123202 source:c:\users\mdm\desktop\cours c 2010 2011\projet c\codage\semaine12 projet console profs - copie\semaine12\listepions.c
+	"listePions.h"
+	"util.h"
+
+1314287539 c:\users\mdm\desktop\cours c 2010 2011\projet c\codage\semaine12 projet console profs - copie\semaine12\listepions.h
+	"bateau.h"
+
+1314287419 c:\users\mdm\desktop\cours c 2010 2011\projet c\codage\semaine12 projet console profs - copie\semaine12\pion.h
+
+1314355107 c:\users\mdm\desktop\cours c 2010 2011\projet c\codage\semaine12 projet console profs - copie\semaine12\util.h
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<conio.h>
+	<unistd.h>
+	<windows.h>
+	"lietrec.h"
+	"coniocouleur.h"
+
+1314355116 source:c:\users\mdm\desktop\cours c 2010 2011\projet c\codage\semaine12 projet console profs - copie\semaine12\util.c
+	"util.h"
+
+1314354021 source:c:\users\mdm\desktop\cours c 2010 2011\projet c\codage\semaine12 projet console profs - copie\semaine12\bateau.c
+	"bateau.h"
+	"parametre.h"
+
+1314362776 c:\users\mdm\desktop\cours c 2010 2011\projet c\codage\semaine12 projet console profs - copie\semaine12\bateau.h
+
+1314277357 source:c:\users\mdm\desktop\cours c 2010 2011\projet c\codage\semaine12 projet console profs - copie\semaine12\couleurs.c
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"couleurs.h"
+
+1314366453 c:\users\mdm\desktop\cours c 2010 2011\projet c\codage\semaine12 projet console profs - copie\semaine12\couleurs.h
+	"coniocouleur.h"
+
+1314361556 source:c:\users\mdm\desktop\cours c 2010 2011\projet c\codage\semaine12 projet console profs - copie\semaine12\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"util.h"
+	"bateau.h"
+	"parametre.h"
+	"vuev1.h"
+	"lietrec.h"
+
+1314361633 c:\users\mdm\desktop\cours c 2010 2011\projet c\codage\semaine12 projet console profs - copie\semaine12\parametre.h
+	<stdio.h>
+	"couleurs.h"
+
+1314361061 c:\users\mdm\desktop\cours c 2010 2011\projet c\codage\semaine12 projet console profs - copie\semaine12\vuev1.h
+	"bateau.h"
+	"parametre.h"
+
+1314354506 source:c:\users\mdm\desktop\cours c 2010 2011\projet c\codage\semaine12 projet console profs - copie\semaine12\parametre.c
+	"parametre.h"
+	<malloc.h>
+	<string.h>
+	<string.h>
+
+1314361475 source:c:\users\mdm\desktop\cours c 2010 2011\projet c\codage\semaine12 projet console profs - copie\semaine12\vuev1.c
+	"vuev1.h"
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<unistd.h>
+	<windows.h>
+	"lietrec.h"
+	"coniocouleur.h"
+
+1314354022 source:g:\documents and settings\fabrice\bureau\c 2011 -2012\c2011-2012\projet bataille navale\semaine12 projet console profs - copie\semaine12\bateau.c
+	"bateau.h"
+	"parametre.h"
+
+1314362778 g:\documents and settings\fabrice\bureau\c 2011 -2012\c2011-2012\projet bataille navale\semaine12 projet console profs - copie\semaine12\bateau.h
+
+1314361634 g:\documents and settings\fabrice\bureau\c 2011 -2012\c2011-2012\projet bataille navale\semaine12 projet console profs - copie\semaine12\parametre.h
+	<stdio.h>
+	"couleurs.h"
+
+1314366454 g:\documents and settings\fabrice\bureau\c 2011 -2012\c2011-2012\projet bataille navale\semaine12 projet console profs - copie\semaine12\couleurs.h
+	"coniocouleur.h"
+
+1296116752 g:\documents and settings\fabrice\bureau\c 2011 -2012\c2011-2012\projet bataille navale\semaine12 projet console profs - copie\semaine12\coniocouleur.h
+
+1296120586 source:g:\documents and settings\fabrice\bureau\c 2011 -2012\c2011-2012\projet bataille navale\semaine12 projet console profs - copie\semaine12\coniocouleur.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<conio.h>
+	"coniocouleur.h"
+
+1314277358 source:g:\documents and settings\fabrice\bureau\c 2011 -2012\c2011-2012\projet bataille navale\semaine12 projet console profs - copie\semaine12\couleurs.c
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"couleurs.h"
+
+1296201454 source:g:\documents and settings\fabrice\bureau\c 2011 -2012\c2011-2012\projet bataille navale\semaine12 projet console profs - copie\semaine12\lietrec.c
+	<stdio.h>
+	"coniocouleur.h"
+	"lietrec.h"
+
+1296201670 g:\documents and settings\fabrice\bureau\c 2011 -2012\c2011-2012\projet bataille navale\semaine12 projet console profs - copie\semaine12\lietrec.h
+	<stdio.h>
+	"coniocouleur.h"
+
+1314371078 source:g:\documents and settings\fabrice\bureau\c 2011 -2012\c2011-2012\projet bataille navale\semaine12 projet console profs - copie\semaine12\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"util.h"
+	"bateau.h"
+	"parametre.h"
+	"vuev1.h"
+	"lietrec.h"
+	"vueGrille.h"
+
+1314355108 g:\documents and settings\fabrice\bureau\c 2011 -2012\c2011-2012\projet bataille navale\semaine12 projet console profs - copie\semaine12\util.h
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<conio.h>
+	<unistd.h>
+	<windows.h>
+	"lietrec.h"
+	"coniocouleur.h"
+
+1314361062 g:\documents and settings\fabrice\bureau\c 2011 -2012\c2011-2012\projet bataille navale\semaine12 projet console profs - copie\semaine12\vuev1.h
+	"bateau.h"
+	"parametre.h"
+
+1314371078 g:\documents and settings\fabrice\bureau\c 2011 -2012\c2011-2012\projet bataille navale\semaine12 projet console profs - copie\semaine12\vuegrille.h
+
+1314354508 source:g:\documents and settings\fabrice\bureau\c 2011 -2012\c2011-2012\projet bataille navale\semaine12 projet console profs - copie\semaine12\parametre.c
+	"parametre.h"
+	<malloc.h>
+	<string.h>
+	<string.h>
+
+1314355118 source:g:\documents and settings\fabrice\bureau\c 2011 -2012\c2011-2012\projet bataille navale\semaine12 projet console profs - copie\semaine12\util.c
+	"util.h"
+
+1314371078 source:g:\documents and settings\fabrice\bureau\c 2011 -2012\c2011-2012\projet bataille navale\semaine12 projet console profs - copie\semaine12\vuegrille.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<unistd.h>
+	<windows.h>
+	"lietrec.h"
+	"coniocouleur.h"
+
+1314371078 source:g:\documents and settings\fabrice\bureau\c 2011 -2012\c2011-2012\projet bataille navale\semaine12 projet console profs - copie\semaine12\vuev1.c
+	"vuev1.h"
+
