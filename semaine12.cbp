@@ -34,6 +34,7 @@
 		<Unit filename="bateau.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="bateau.h" />
 		<Unit filename="coniocouleur.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -42,6 +43,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="couleurs.h" />
+		<Unit filename="coup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="coup.h" />
 		<Unit filename="lietrec.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -50,6 +55,10 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.h" />
 		<Unit filename="parametre.c">
 			<Option compilerVar="CC" />
 		</Unit>

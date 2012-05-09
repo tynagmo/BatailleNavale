@@ -77,7 +77,7 @@ void afficherParam(const Tparam * pParam);
 	Prec : -
 */
 
-void saisirInfoBateau(TInfoBateau *pB);
+void saisirInfoBateau(TInfoBateau pB);
 
 
 
@@ -110,3 +110,25 @@ void afficherCaractereDansGrille(COLORS pcouleurCaractere,COLORS pcouleurFond,ch
 
 
 void afficherToutEnTest();
+
+
+
+/*	N : saisirCouleurBateau (02/05)
+	D : permet de saisir la couleur d'un bateau
+	E :
+	S : ...
+	R :  le code couleur du bateau
+	Prec :
+*/
+int saisirCouleurBateau();
+
+
+
+/*	N : saisirTypeBateau (02/05)
+	D : permet de saisir le type d'un bateau (remorqeur ....)
+	E :
+	S : ...
+	R :  le code type du bateau
+	Prec :
+*/
+int saisirTypeBateau();

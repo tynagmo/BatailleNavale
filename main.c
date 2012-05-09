@@ -39,9 +39,15 @@ int main()
 
     controleurParametreVersionTest(&param);
 
+    //affichage du menu principal (02/05)
+    afficherMenu();
+
+
 
     // afficher les paramètres de la partie
     afficherParam(&param);
+
+
 
     // sauver les paramètres de la partie dans un fichier essai.don
     f = fopen ("essai.don", "wb");

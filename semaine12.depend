@@ -252,3 +252,98 @@
 1314371078 source:g:\documents and settings\fabrice\bureau\c 2011 -2012\c2011-2012\projet bataille navale\semaine12 projet console profs - copie\semaine12\vuev1.c
 	"vuev1.h"
 
+1314350400 source:e:\[projet-c]\semaine12\bateau.c
+	"bateau.h"
+	"parametre.h"
+
+1335976990 e:\[projet-c]\semaine12\bateau.h
+	"parametre.h"
+
+1335977114 e:\[projet-c]\semaine12\parametre.h
+	<stdio.h>
+	"couleurs.h"
+
+1314362820 e:\[projet-c]\semaine12\couleurs.h
+	"coniocouleur.h"
+
+1296113100 e:\[projet-c]\semaine12\coniocouleur.h
+
+1296116940 source:e:\[projet-c]\semaine12\coniocouleur.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<windows.h>
+	<conio.h>
+	"coniocouleur.h"
+
+1314273720 source:e:\[projet-c]\semaine12\couleurs.c
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"couleurs.h"
+
+1296197820 source:e:\[projet-c]\semaine12\lietrec.c
+	<stdio.h>
+	"coniocouleur.h"
+	"lietrec.h"
+
+1296198060 e:\[projet-c]\semaine12\lietrec.h
+	<stdio.h>
+	"coniocouleur.h"
+
+1335977190 source:e:\[projet-c]\semaine12\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"util.h"
+	"bateau.h"
+	"parametre.h"
+	"vuev1.h"
+	"lietrec.h"
+	"vueGrille.h"
+
+1314351480 e:\[projet-c]\semaine12\util.h
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<conio.h>
+	<unistd.h>
+	<windows.h>
+	"lietrec.h"
+	"coniocouleur.h"
+
+1336579306 e:\[projet-c]\semaine12\vuev1.h
+	"bateau.h"
+	"parametre.h"
+
+1335370388 e:\[projet-c]\semaine12\vuegrille.h
+
+1314350880 source:e:\[projet-c]\semaine12\parametre.c
+	"parametre.h"
+	<malloc.h>
+	<string.h>
+	<string.h>
+
+1314351480 source:e:\[projet-c]\semaine12\util.c
+	"util.h"
+
+1335974866 source:e:\[projet-c]\semaine12\vuegrille.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<unistd.h>
+	<windows.h>
+	"lietrec.h"
+	"coniocouleur.h"
+
+1335976788 source:e:\[projet-c]\semaine12\vuev1.c
+	"vuev1.h"
+
+1335370420 source:e:\[projet-c]\semaine12\coup.c
+
+1335977016 source:e:\[projet-c]\semaine12\menu.c
+	"menu.h"
+
+1335974458 e:\[projet-c]\semaine12\menu.h
+

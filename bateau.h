@@ -1,6 +1,7 @@
 // bateau.h le module bateau définit les couleurs et type et autre info des bateaux
 #ifndef _BATEAU_H
 #define _BATEAU_H
+#include "parametre.h"
 
 
 
@@ -18,7 +19,8 @@ typedef struct
 {
     TPosition mCoordonnees;
     int idInfoBateau;
-    //completer par exemple avec des informations sur l'etat du bateau
+    TInfoBateau Infobateau;
+
 }   TBateau;
 
 /* il faut faire égalemnt des fonctions pour les informations positionnelles direction latitude et logitude=> compléter*/

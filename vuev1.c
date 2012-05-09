@@ -1,5 +1,7 @@
 #include "vuev1.h"
-
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
 // pour les couleurs
 
 //***************************
@@ -111,13 +113,67 @@ void afficherParam(const Tparam * pParam)
 	R :  -
 	Prec : -
 */
-
-void saisirInfoBateau(TInfoBateau *pB)
+//complétée 02/05
+void saisirInfoBateau(TInfoBateau pB)
 {
-    //COMPETER
-    //pour test uniquement
+    printf("---------------------Saisie d'informations du Bateau---------------------\n");
+    pB.mCouleur=saisirCouleurBateau(); //saisie couleur
+    pB.mType=saisirTypeBateau(); // saisie type
+    printf("Saisissez le nom du bateau (%d caracteres maximum\n", K_LGNOM);
+    printf("%s", pB.&mNom);
+
+     int mCouleur /*indice dans la table des couleurs*/;
+     EType mType;
+     char mNom[K_LGNOM];
+     int touche[K_LONGMAXBAT]; //si toutes les cases sont a 0 alors bateau est coulé
+     int coule;
+
+
 
 }
+//créer 02/05
+int saisirCouleurBateau()
+{
+    int numCouleur;
+    do{
+    printf("Saisissez votre couleur : \n");
+    printf("Tapez 0 pour BLACK\n");
+    printf("Tapez 1 pour BLUE\n");
+    printf("Tapez 2 pour GREEN\n");
+    printf("Tapez 3 pour CYAN\n");
+    printf("Tapez 4 pour RED\n");
+    printf("Tapez 5 pour MAGENTA\n");
+    printf("Tapez 6 pour BROWN\n");
+    printf("Tapez 7 pour LIGHTGRAY\n");
+    printf("Tapez 8 pour DARKGRAY\n");
+    printf("Tapez 9 pour LIGHTBLUE\n");
+    printf("Tapez 10 pour LIGHTGREEN\n");
+    printf("Tapez 11 pour LIGHTCYAN\n");
+    printf("Tapez 12 pour LIGHTRED\n");
+    printf("Tapez 13 pour LIGHTMAGENTA\n");
+    printf("Tapez 14 pour YELLOW\n");
+    printf("Tapez 15 pour WHITE\n");
+    scanf("%d",&numCouleur);
+    }while (numCouleur<0 || numCouleur >15);
+    return(numCouleur);
+}
+
+//crée 02/05 finie le 9/5
+int saisirTypeBateau(){
+
+    int typeBateau;
+    do{
+        printf("Saisissez votre type bateau\n");
+        printf("Tapez 0 pour remorqueur (taille du bateau : 2 cases)\n ");
+        printf("Tapez 1 pour porte Avion (taille du bateau : 5 cases\n");
+        printf("Tapez 2 pour sous marin (taille du bateau : 4 cases\n");
+        printf("Tapez 3 pour cargot (taille du bateau : 3 cases\n");
+        scanf("%d",&typeBateau);
+    }while (typeBateau<0 || typeBateau>3);
+    return (typeBateau);
+}
+
+
 
 
 
