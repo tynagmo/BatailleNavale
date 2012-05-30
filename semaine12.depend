@@ -445,14 +445,14 @@
 	<stdlib.h>
 	<conio.h>
 
-1314350400 source:c:\users\quentin\prog\bataillenavale\bataillenavale\bateau.c
+1337589248 source:c:\users\quentin\prog\bataillenavale\bataillenavale\bateau.c
 	"bateau.h"
 	"parametre.h"
 
-1335976990 c:\users\quentin\prog\bataillenavale\bataillenavale\bateau.h
+1337587980 c:\users\quentin\prog\bataillenavale\bataillenavale\bateau.h
 	"parametre.h"
 
-1335977114 c:\users\quentin\prog\bataillenavale\bataillenavale\parametre.h
+1337590676 c:\users\quentin\prog\bataillenavale\bataillenavale\parametre.h
 	<stdio.h>
 	"couleurs.h"
 
@@ -487,10 +487,11 @@
 	<stdio.h>
 	"coniocouleur.h"
 
-1338367163 source:c:\users\quentin\prog\bataillenavale\bataillenavale\main.c
+1338393087 source:c:\users\quentin\prog\bataillenavale\bataillenavale\main.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
+	<windows.h>
 	"util.h"
 	"bateau.h"
 	"parametre.h"
@@ -515,7 +516,7 @@
 
 1335370388 c:\users\quentin\prog\bataillenavale\bataillenavale\vuegrille.h
 
-1338366116 source:c:\users\quentin\prog\bataillenavale\bataillenavale\menu.c
+1338392820 source:c:\users\quentin\prog\bataillenavale\bataillenavale\menu.c
 	"menu.h"
 	"vuev1.h"
 	"parametre.h"

@@ -23,5 +23,11 @@ typedef struct
 
 }   TBateau;
 
+
+int EstCoule(const TBateau pBateau);
+// D: retourn 1 si le bateau est coulé 0 si non
+// E: pBateau:
+// R: 1 ou 0
+
 /* il faut faire égalemnt des fonctions pour les informations positionnelles direction latitude et logitude=> compléter*/
 #endif

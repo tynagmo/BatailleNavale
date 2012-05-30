@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
+#include <windows.h>
 
 
 #include "util.h"
@@ -31,6 +32,8 @@ void controleurParametreVersionTest(Tparam *param)
 
 int main()
 {
+    system("mode con: cols=1280 lines=720");
+
     FILE * f;
     char c;
     int choix;
@@ -47,8 +50,8 @@ int main()
     switch (choix)
     {
         case KNEWGAME :
-                //TInfoBateau newB;
-                //saisirInfoBateau(newB);
+                TBateau newB;
+                saisirInfoBateau(newB.InfoBateau);
             break;
 
         case KLOADGAME :

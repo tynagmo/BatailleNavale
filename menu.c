@@ -14,7 +14,7 @@ int afficherMenu (){
     printf("\n ---------------------MENU PRINCIPAL : BATAILLE NAVALE ----------------------\n\n");
     printf("%d - Creer une nouvelle partie\n", KNEWGAME);
     printf("%d - Charger partie\n", KLOADGAME);
-    printf("%d - Consulter les meilleurs scores1\n", KHIGHSCORE);
+    printf("%d - Consulter les meilleurs scores\n", KHIGHSCORE);
     printf("%d - Afficher regles\n", KSHOWRULES);
     printf("%d - Quitter\n\n\n", KQUIT);
 

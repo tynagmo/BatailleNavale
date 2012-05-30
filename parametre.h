@@ -9,7 +9,7 @@
 #define K_NBCOULEURS 4
 #define K_NBTYPEBATEAUX 4
 #define K_LGNOM 25
-#define K_LONGMAXBAT 5+1
+#define K_LONGMAXBAT 5
 
 
 typedef enum  {
@@ -19,14 +19,17 @@ typedef enum  {
     cargot=3
     }EType;
 
+
+
 typedef struct
 {
      int mCouleur /*indice dans la table des couleurs*/;
      EType mType;
      char mNom[K_LGNOM];
      int touche[K_LONGMAXBAT]; //si toutes les cases sont a 0 alors bateau est coulé
-     int coule;
 }     TInfoBateau;
+
+
 
 //***************************
 /*	N : getCouleur
