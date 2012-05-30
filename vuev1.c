@@ -1,4 +1,5 @@
 #include "vuev1.h"
+#include "parametre.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -18,6 +19,10 @@ void afficherCouleur(int pI)
 {
     char nom[KCOULEURS_LGNOMCOUL+1];
     getNom (getCouleurFromNum ( pI), nom);
+
+    // ajout essai
+    textcolor(getColor(getCouleurFromNum(pI)));
+
     printf("Couleur : %s\t", nom);
 }
 
@@ -58,6 +63,7 @@ void afficherType(int pI)
 */
 void afficherInfoBateau(const TInfoBateau *pB)
 {
+    //textcolor(getCouleurFromNum (pB));
     afficherCouleur(pB->mCouleur);
     afficherType(pB->mType );
     printf("Nom : %s\n",pB->mNom);
@@ -116,19 +122,19 @@ void afficherParam(const Tparam * pParam)
 //complétée 02/05
 void saisirInfoBateau(TInfoBateau pB)
 {
-    printf("---------------------Saisie d'informations du Bateau---------------------\n");
-    pB.mCouleur=saisirCouleurBateau(); //saisie couleur
-    pB.mType=saisirTypeBateau(); // saisie type
-    printf("Saisissez le nom du bateau (%d caracteres maximum\n", K_LGNOM);
-    printf("%s", pB.&mNom);
-
-     int mCouleur /*indice dans la table des couleurs*/;
+    int mCouleur; /*indice dans la table des couleurs*/
      EType mType;
      char mNom[K_LGNOM];
      int touche[K_LONGMAXBAT]; //si toutes les cases sont a 0 alors bateau est coulé
      int coule;
 
+    printf("---------------------Saisie d'informations du Bateau---------------------\n");
+    pB.mCouleur=saisirCouleurBateau(); //saisie couleur
+    pB.mType=saisirTypeBateau(); // saisie type
+    printf("Saisissez le nom du bateau (%d caracteres maximum\n", K_LGNOM);
+    scanf("%s", mNom);
 
+    setInfoBateau(&pB,mNom,mCouleur,mType);
 
 }
 //créer 02/05

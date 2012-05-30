@@ -9,6 +9,7 @@
 #include "vuev1.h"
 #include "lietrec.h"
 #include "vueGrille.h"
+#include "menu.h"
 
 void controleurParametreVersionTest(Tparam *param)
 {
@@ -32,6 +33,7 @@ int main()
 {
     FILE * f;
     char c;
+    int choix;
 
 
     Tparam param;
@@ -39,13 +41,42 @@ int main()
 
     controleurParametreVersionTest(&param);
 
-    //affichage du menu principal (02/05)
-    afficherMenu();
+    //affichage du menu principal (30/05)
+    choix=afficherMenu();
 
+    switch (choix)
+    {
+        case KNEWGAME :
+                //TInfoBateau newB;
+                //saisirInfoBateau(newB);
+            break;
+
+        case KLOADGAME :
+
+            break;
+
+        case KHIGHSCORE :
+
+            break;
+
+        case KSHOWRULES :
+
+            break;
+
+        case KQUIT :
+                system("cls");
+                printf("\n\n\n\n\n\t\t Merci d'avoir joue ! \n\n\n\n\n\n\n\n\n\n");
+                exit(0);
+            break;
+
+        default :
+            printf ("\n\n\nUne erreur est apparue... \n\n\n");
+            break;
+    }
 
 
     // afficher les paramètres de la partie
-    afficherParam(&param);
+    //afficherParam(&param);
 
 
 
@@ -69,10 +100,6 @@ int main()
     clrscr();
     initConsoleJeu();
 
-    // afficher les paramètres de la partie
-    //afficherParam(&param);
-  //  scanf("%c",&c);
-    clrscr();
 
     afficherToutEnTest();
 

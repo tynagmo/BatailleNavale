@@ -18,7 +18,7 @@
 void afficherGrille(int px, int py, int pnbLignes, int pnbColonnes, COLORS pCouleur)
 {
     int i;
-    textcolor(YELLOW);
+    textcolor(pCouleur);
 
     //affiche colonne chiffres
     for (i=0;i<pnbLignes;i++)
@@ -70,12 +70,18 @@ void afficherToutEnTest()
     gotoxy( gauche,haut/2);
     textcolor((BLACK)|(LIGHTCYAN<<4));
     cprintf("%s","mettre le nom du joueur");
-    afficherGrille(gauche,haut,10,10,YELLOW );
+    afficherGrille(gauche,haut,10,10,LIGHTGREEN );
     afficherGrille(gauche + 80 ,haut,10,10,YELLOW );
 
     afficherCaractereDansGrille(BLACK, LIGHTCYAN, 'A', gauche, haut, 1, 5);
 
     afficherCaractereDansGrille (WHITE,LIGHTRED,'*',gauche, haut, 4,6);
+
+    afficherCaractereDansGrille(RED, LIGHTBLUE, ' ', gauche, haut, 4,3 );
+    afficherCaractereDansGrille(RED, LIGHTBLUE, ' ', gauche, haut, 4,4 );
+    afficherCaractereDansGrille(RED, LIGHTBLUE, ' ', gauche, haut, 4,5 );
+
+
 }
 
 

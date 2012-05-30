@@ -1,12 +1,37 @@
 #include "menu.h"
+#include "vuev1.h"
+#include "parametre.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 
-void afficherMenu (){
+int afficherMenu (){
 
-printf("---------------------MENU PRINCIPAL : BATAILLE NAVALE ----------------------\n\n");
-printf("1 - Creer une nouvelle partie\n");
-printf("2 - Charger partie\n");
-printf("3 - Consulter les meilleurs scores1\n");
-printf("4 - Afficher regles\n");
-printf("5 - Quitter\n\n\n");
+    system("cls");
+    int choix;
+
+    printf("\n ---------------------MENU PRINCIPAL : BATAILLE NAVALE ----------------------\n\n");
+    printf("%d - Creer une nouvelle partie\n", KNEWGAME);
+    printf("%d - Charger partie\n", KLOADGAME);
+    printf("%d - Consulter les meilleurs scores1\n", KHIGHSCORE);
+    printf("%d - Afficher regles\n", KSHOWRULES);
+    printf("%d - Quitter\n\n\n", KQUIT);
+
+	printf ("  Votre choix --> ");
+	fflush (stdin);
+	scanf("%d",&choix);
+	while (choix != KNEWGAME
+			&& choix != KLOADGAME
+			&& choix != KHIGHSCORE
+			&& choix != KSHOWRULES
+			&& choix != KQUIT)
+	{
+		printf  ("  Erreur de saisie, Votre choix --> ");
+		fflush (stdin);
+		scanf("%d",&choix);
+	}
+
+    return choix;
 }
+
