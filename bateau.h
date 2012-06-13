@@ -18,16 +18,16 @@ typedef struct
 typedef struct
 {
     TPosition mCoordonnees;
-    int idInfoBateau;
-    TInfoBateau Infobateau;
-
+    int idInfoBateau;// unique, indice des mBateauxDuJoueur
+    int touche[K_LONGMAXBAT]; //si toutes les cases sont a 0 alors bateau est coulé
 }   TBateau;
 
 
-int EstCoule(const TBateau pBateau);
+int EstCoule(TBateau * pBateau, Tparam * pParam);
 // D: retourn 1 si le bateau est coulé 0 si non
 // E: pBateau:
 // R: 1 ou 0
 
+int GetTypeBateau(int pIndice, Tparam * pParam );
 /* il faut faire égalemnt des fonctions pour les informations positionnelles direction latitude et logitude=> compléter*/
 #endif

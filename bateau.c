@@ -29,22 +29,35 @@ typedef struct
 il faut faire égalemnt des fonctions pour les informations positionnelles direction latitude et logitude=> compléter
 */
 
-int EstCoule(const TBateau pBateau)
+int EstCoule(TBateau * pBateau, Tparam * pParam)
 {
     int i,nbTouche,j;
 
     nbTouche=0;
     j=0;
 
-    for(i=0;i< pBateau.Infobateau.mType;i++)
+    for(i=0;i< GetTypeBateau(pBateau->idInfoBateau, pParam);i++)
     {
-        if(pBateau.Infobateau.touche[j]==0)
+        if(pBateau->touche[j]==0)
         {
             j++;
             nbTouche++;
         }
     }
 
-    if(nbTouche==pBateau.Infobateau.mType)
+    if(nbTouche==GetTypeBateau(pBateau->idInfoBateau, pParam))
         return 1;
+}
+
+
+int GetTypeBateau(int pIndice, Tparam * pParam )
+{
+    if(pIndice<getNBInstances(pParam))
+    {
+        return (pParam->mBateauxDuJoueur[pIndice].mType);
+    }else
+    {
+        return (pParam->mBateauxMachine[pIndice].mType);
+    }
+
 }

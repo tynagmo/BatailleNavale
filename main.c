@@ -11,6 +11,7 @@
 #include "lietrec.h"
 #include "vueGrille.h"
 #include "menu.h"
+#include "joueur.h"
 
 void controleurParametreVersionTest(Tparam *param)
 {
@@ -38,43 +39,56 @@ int main()
     char c;
     int choix;
 
-
+    Tjoueur j;
     Tparam param;
     initRandom();// pour initialiser la suite de valeurs aléatoires cf util.h
 
     controleurParametreVersionTest(&param);
 
     //affichage du menu principal (30/05)
-    choix=afficherMenu();
 
-    switch (choix)
+    while (choix != KQUIT)
     {
-        case KNEWGAME :
-                TBateau newB;
-                saisirInfoBateau(newB.InfoBateau);
-            break;
+        choix=afficherMenu();
 
-        case KLOADGAME :
+        switch (choix)
+        {
+            case KNEWGAME :
 
-            break;
+                   j=saisieJoueur(j);
+                    system("cls");
+                   afficherToutEnTest(j);
+                    gotoxy( 30,50);
+                   system("pause");
+                break;
 
-        case KHIGHSCORE :
+            case KLOADGAME :
+                        //lire les paramètres sauves dans essai.don
+                    f = fopen ("essai.don", "rb");
+                    if (f==NULL) exit (1);
+                    chargerParam(f,&param);
+                    fclose(f);
+                    break;
 
-            break;
+            case KHIGHSCORE :
 
-        case KSHOWRULES :
+                break;
 
-            break;
+            case KSHOWRULES :
 
-        case KQUIT :
-                system("cls");
-                printf("\n\n\n\n\n\t\t Merci d'avoir joue ! \n\n\n\n\n\n\n\n\n\n");
-                exit(0);
-            break;
+                break;
 
-        default :
-            printf ("\n\n\nUne erreur est apparue... \n\n\n");
-            break;
+            case KQUIT :
+                    system("cls");
+                    printf("\n\n\n\n\n\t\t Merci d'avoir joue ! \n\n\n\n\n\n\n\n\n\n");
+                    exit(0);
+                break;
+
+            default :
+                printf ("\n\n\nUne erreur est apparue... \n\n\n");
+                break;
+        }
+
     }
 
 
@@ -89,11 +103,7 @@ int main()
     memParam(&param, f);
     fclose(f);
 
-     //lire les paramètres sauves dans essai.don
-    f = fopen ("essai.don", "rb");
-    if (f==NULL) exit (1);
-    chargerParam(f,&param);
-    fclose(f);
+
 
     textcolor(YELLOW);
 
@@ -104,7 +114,7 @@ int main()
     initConsoleJeu();
 
 
-    afficherToutEnTest();
+
 
     gotoxy( 30,50);
     scanf("%c",&c);

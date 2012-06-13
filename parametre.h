@@ -26,9 +26,27 @@ typedef struct
      int mCouleur /*indice dans la table des couleurs*/;
      EType mType;
      char mNom[K_LGNOM];
-     int touche[K_LONGMAXBAT]; //si toutes les cases sont a 0 alors bateau est coulé
 }     TInfoBateau;
 
+typedef struct
+{
+    int mNombreInstanceBateaux;
+    TInfoBateau * mBateauxDuJoueur; /*tableau dynamique de mNombreInstanceBateaux*K_NBTYPEBATEAUX bateaux du joueur*/
+    TInfoBateau * mBateauxMachine; /*tableau dynamique de mNombreInstanceBateaux*K_NBTYPEBATEAUX bateaux de la machine*/
+
+}Tparam;
+
+/*typedef struct
+{
+    TPosition mCoordonnees;
+    int idInfoBateau;// unique, indice des mBateauxDuJoueur
+    //TInfoBateau Infobateau; benoit a dit NON
+}   TBateau;*/
+
+/* on va supposer que les bateaux du joueur sont numérotés de 0 à mNombreInstanceBateaux*K_NBTYPEBATEAUX -1 et donc que leur numéro sera l'indice dans le tableau
+mBateauxDuJoueur
+et les bateaux de la machine sont nimérotés de  mNombreInstanceBateaux*K_NBTYPEBATEAUX à (2* mNombreInstanceBateaux*K_NBTYPEBATEAUX) -1 et donc que leur numéro -  mNombreInstanceBateaux*K_NBTYPEBATEAUX
+sera l'indice dans le tableau mBateauxMachine*/
 
 
 //***************************
@@ -78,17 +96,7 @@ void setInfoBateau (TInfoBateau *pB, char pNom[], int pCouleur , EType pType);
 
 
 
-typedef struct
-{
-    int mNombreInstanceBateaux;
-    TInfoBateau * mBateauxDuJoueur; /*tableau dynamique de mNombreInstanceBateaux*K_NBTYPEBATEAUX bateaux du joueur*/
-    TInfoBateau * mBateauxMachine; /*tableau dynamique de mNombreInstanceBateaux*K_NBTYPEBATEAUX bateaux de la machine*/
-}Tparam;
 
-/* on va supposer que les bateaux du joueur sont numérotés de 0 à mNombreInstanceBateaux*K_NBTYPEBATEAUX -1 et donc que leur numéro sera l'indice dans le tableau
-mBateauxDuJoueur
-et les bateaux de la machine sont nimérotés de  mNombreInstanceBateaux*K_NBTYPEBATEAUX à (2* mNombreInstanceBateaux*K_NBTYPEBATEAUX) -1 et donc que leur numéro -  mNombreInstanceBateaux*K_NBTYPEBATEAUX
-sera l'indice dans le tableau mBateauxMachine*/
 
 //***************************
 /*	N : getInfoBateau

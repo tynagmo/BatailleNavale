@@ -1,4 +1,4 @@
-
+#include "joueur.h"
 
 
 
@@ -30,4 +30,4 @@ void afficherGrille(int px, int py, int pnbLignes, int pnbColonnes, COLORS pCoul
 void afficherCaractereDansGrille(COLORS pcouleurCaractere,COLORS pcouleurFond,char pcaractere,int  ppositionXGrille,int ppositionYGrille,int pligne,int pcolonne);
 
 
-void afficherToutEnTest();
+void afficherToutEnTest(Tjoueur pjoueur);

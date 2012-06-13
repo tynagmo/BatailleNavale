@@ -11,10 +11,10 @@
 		<Cursor position="281" topLine="0" />
 	</File>
 	<File name="coniocouleur.h" open="1" top="0" tabpos="8">
-		<Cursor position="1142" topLine="30" />
+		<Cursor position="1142" topLine="18" />
 	</File>
 	<File name="couleurs.c" open="1" top="0" tabpos="9">
-		<Cursor position="193" topLine="10" />
+		<Cursor position="193" topLine="9" />
 	</File>
 	<File name="couleurs.h" open="1" top="0" tabpos="5">
 		<Cursor position="269" topLine="0" />
@@ -35,7 +35,7 @@
 		<Cursor position="318" topLine="0" />
 	</File>
 	<File name="main.c" open="1" top="1" tabpos="1">
-		<Cursor position="1062" topLine="0" />
+		<Cursor position="1432" topLine="0" />
 	</File>
 	<File name="menu.c" open="1" top="0" tabpos="6">
 		<Cursor position="446" topLine="9" />
@@ -47,7 +47,7 @@
 		<Cursor position="3512" topLine="139" />
 	</File>
 	<File name="parametre.h" open="1" top="0" tabpos="2">
-		<Cursor position="4471" topLine="140" />
+		<Cursor position="4471" topLine="143" />
 	</File>
 	<File name="util.c" open="1" top="0" tabpos="16">
 		<Cursor position="828" topLine="8" />
