@@ -11,8 +11,10 @@
 #include "lietrec.h"
 #include "vueGrille.h"
 #include "menu.h"
+
 #include "joueur.h"
 #include "coniocouleur.h"
+
 
 void controleurParametreVersionTest(Tparam *param)
 {
@@ -38,7 +40,10 @@ int main()
 
     FILE * f;
     char c;
-    int choix;
+    int choix=0;
+    TBateau Bat;
+
+
 
     Tjoueur j;
     TBateau bateau;
@@ -47,16 +52,20 @@ int main()
     initRandom();// pour initialiser la suite de valeurs aléatoires cf util.h
 
     controleurParametreVersionTest(&param);
-
+    //test de estCouler
+   // Bat.idInfoBateau=1;
+    //Bat.touche[4]={0,0,0,0};
+    //int EstCoule(TBateau * pBateau, Tparam * pParam)
     //affichage du menu principal (30/05)
+    choix=afficherMenu();
 
-    while (choix != KQUIT)
+    while(choix !=  KQUIT)
     {
-        choix=afficherMenu();
 
         switch (choix)
         {
             case KNEWGAME :
+
 
                    j=saisieJoueur(j);
                     system("cls");
@@ -70,15 +79,12 @@ int main()
                    setBateauJoueur(&bateau, &param, 0);
 
                    clrscr;
+
                 break;
 
             case KLOADGAME :
-                        //lire les paramètres sauves dans essai.don
-                    f = fopen ("essai.don", "rb");
-                    if (f==NULL) exit (1);
-                    chargerParam(f,&param);
-                    fclose(f);
-                    break;
+
+                break;
 
             case KHIGHSCORE :
 
@@ -113,7 +119,11 @@ int main()
     memParam(&param, f);
     fclose(f);
 
-
+     //lire les paramètres sauves dans essai.don
+    f = fopen ("essai.don", "rb");
+    if (f==NULL) exit (1);
+    chargerParam(f,&param);
+    fclose(f);
 
     textcolor(YELLOW);
 
@@ -124,7 +134,7 @@ int main()
     initConsoleJeu();
 
 
-
+    afficherToutEnTest();
 
     gotoxy( 30,50);
     scanf("%c",&c);

@@ -1,5 +1,4 @@
 #include "vuev1.h"
-#include "parametre.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <conio.h>
@@ -19,10 +18,6 @@ void afficherCouleur(int pI)
 {
     char nom[KCOULEURS_LGNOMCOUL+1];
     getNom (getCouleurFromNum ( pI), nom);
-
-    // ajout essai
-    textcolor(getColor(getCouleurFromNum(pI)));
-
     printf("Couleur : %s\t", nom);
 }
 
@@ -63,7 +58,6 @@ void afficherType(int pI)
 */
 void afficherInfoBateau(const TInfoBateau *pB)
 {
-    //textcolor(getCouleurFromNum (pB));
     afficherCouleur(pB->mCouleur);
     afficherType(pB->mType );
     printf("Nom : %s\n",pB->mNom);
@@ -122,6 +116,7 @@ void afficherParam(const Tparam * pParam)
 //fini le 14/06
 void saisirInfoBateau(TInfoBateau * pB)
 {
+
     int mCouleur; /*indice dans la table des couleurs*/
      EType mType;
      char mNom[K_LGNOM];
@@ -130,9 +125,9 @@ void saisirInfoBateau(TInfoBateau * pB)
     mCouleur=saisirCouleurBateau(); //saisie couleur
     mType=saisirTypeBateau(); // saisie type
     printf("Saisissez le nom du bateau (%d caracteres maximum\n", K_LGNOM);
-    scanf("%s", mNom);
+    scanf("%s", &pB.mNom);
 
-    setInfoBateau(&pB,mNom,mCouleur,mType);
+
 
 
 }
@@ -160,6 +155,7 @@ int saisirCouleurBateau()
     printf("Tapez 15 pour WHITE\n");
     scanf("%d",&numCouleur);
     }while (numCouleur<0 || numCouleur >15);
+
     return(numCouleur);
 }
 
