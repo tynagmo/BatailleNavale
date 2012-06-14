@@ -77,7 +77,7 @@ void afficherParam(const Tparam * pParam);
 	Prec : -
 */
 
-void saisirInfoBateau(TInfoBateau pB);
+void saisirInfoBateau(TInfoBateau * pB);
 
 
 

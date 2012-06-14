@@ -70,18 +70,13 @@ void afficherToutEnTest(Tjoueur pjoueur)
 
 
     gotoxy( gauche,haut/2);
-    textcolor((BLACK)|(LIGHTCYAN<<4));
+    textcolor(LIGHTGREEN);
     cprintf("%s %s",pjoueur.Nom, pjoueur.Prenom);
     afficherGrille(gauche,haut,10,10,LIGHTGREEN );
+    gotoxy(gauche+80, haut/2);
+    textcolor(YELLOW);
+    cprintf("Ordinateur");
     afficherGrille(gauche + 80 ,haut,10,10,YELLOW );
-
-    afficherCaractereDansGrille(BLACK, LIGHTCYAN, 'A', gauche, haut, 1, 5);
-
-    afficherCaractereDansGrille (WHITE,LIGHTRED,'*',gauche, haut, 4,6);
-
-    afficherCaractereDansGrille(RED, LIGHTBLUE, ' ', gauche, haut, 4,3 );
-    afficherCaractereDansGrille(RED, LIGHTBLUE, ' ', gauche, haut, 4,4 );
-    afficherCaractereDansGrille(RED, LIGHTBLUE, ' ', gauche, haut, 4,5 );
 
     textcolor((WHITE)|(BLACK<<4));
 }

@@ -119,22 +119,21 @@ void afficherParam(const Tparam * pParam)
 	R :  -
 	Prec : -
 */
-//complétée 02/05
-void saisirInfoBateau(TInfoBateau pB)
+//fini le 14/06
+void saisirInfoBateau(TInfoBateau * pB)
 {
     int mCouleur; /*indice dans la table des couleurs*/
      EType mType;
      char mNom[K_LGNOM];
-     int touche[K_LONGMAXBAT]; //si toutes les cases sont a 0 alors bateau est coulé
-     int coule;
 
     printf("---------------------Saisie d'informations du Bateau---------------------\n");
-    pB.mCouleur=saisirCouleurBateau(); //saisie couleur
-    pB.mType=saisirTypeBateau(); // saisie type
+    mCouleur=saisirCouleurBateau(); //saisie couleur
+    mType=saisirTypeBateau(); // saisie type
     printf("Saisissez le nom du bateau (%d caracteres maximum\n", K_LGNOM);
     scanf("%s", mNom);
 
     setInfoBateau(&pB,mNom,mCouleur,mType);
+
 
 }
 //créer 02/05

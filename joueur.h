@@ -3,6 +3,8 @@
 #define _JOUEUR_H
 #define K_MAX_NOM 20
 #define K_MAX_PRENOM 20
+#include "bateau.h"
+#include "parametre.h"
 typedef struct Tjoueur
 {
     char Nom[K_MAX_NOM];
@@ -20,5 +22,8 @@ typedef struct Tjoueur
     Prec : -
 */
 Tjoueur saisieJoueur(Tjoueur pjoueur);
+
+
+void setBateauJoueur(TBateau * pBat, Tparam * pParam, int indice);
 
 #endif

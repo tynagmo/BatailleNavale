@@ -61,3 +61,4 @@ int GetTypeBateau(int pIndice, Tparam * pParam )
     }
 
 }
+

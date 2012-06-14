@@ -12,6 +12,7 @@
 #include "vueGrille.h"
 #include "menu.h"
 #include "joueur.h"
+#include "coniocouleur.h"
 
 void controleurParametreVersionTest(Tparam *param)
 {
@@ -40,6 +41,8 @@ int main()
     int choix;
 
     Tjoueur j;
+    TBateau bateau;
+
     Tparam param;
     initRandom();// pour initialiser la suite de valeurs aléatoires cf util.h
 
@@ -58,8 +61,15 @@ int main()
                    j=saisieJoueur(j);
                     system("cls");
                    afficherToutEnTest(j);
+
+                    gotoxy(20,40);
+                    //cprintf("%s",tableCouleurs[1].nom);
+
                     gotoxy( 30,50);
                    system("pause");
+                   setBateauJoueur(&bateau, &param, 0);
+
+                   clrscr;
                 break;
 
             case KLOADGAME :
