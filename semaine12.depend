@@ -347,23 +347,23 @@
 
 1335974458 e:\[projet-c]\semaine12\menu.h
 
-1314350400 source:f:\semaine12-hugo\bateau.c
+1337589246 source:c:\users\hugz2\documents\hugz\iut\cs2\semaine12\bateau.c
 	"bateau.h"
 	"parametre.h"
 
-1335976990 f:\semaine12-hugo\bateau.h
+1339604186 c:\users\hugz2\documents\hugz\iut\cs2\semaine12\bateau.h
 	"parametre.h"
 
-1335977114 f:\semaine12-hugo\parametre.h
+1339604161 c:\users\hugz2\documents\hugz\iut\cs2\semaine12\parametre.h
 	<stdio.h>
 	"couleurs.h"
 
-1314362820 f:\semaine12-hugo\couleurs.h
+1314362820 c:\users\hugz2\documents\hugz\iut\cs2\semaine12\couleurs.h
 	"coniocouleur.h"
 
-1296113100 f:\semaine12-hugo\coniocouleur.h
+1296113100 c:\users\hugz2\documents\hugz\iut\cs2\semaine12\coniocouleur.h
 
-1296116940 source:f:\semaine12-hugo\coniocouleur.c
+1296116940 source:c:\users\hugz2\documents\hugz\iut\cs2\semaine12\coniocouleur.c
 	<stdio.h>
 	<stdlib.h>
 	<unistd.h>
@@ -371,123 +371,25 @@
 	<conio.h>
 	"coniocouleur.h"
 
-1314273720 source:f:\semaine12-hugo\couleurs.c
+1314273720 source:c:\users\hugz2\documents\hugz\iut\cs2\semaine12\couleurs.c
 	<conio.h>
 	<stdlib.h>
 	<stdio.h>
 	<string.h>
 	"couleurs.h"
 
-1335370420 source:f:\semaine12-hugo\coup.c
+1335370420 source:c:\users\hugz2\documents\hugz\iut\cs2\semaine12\coup.c
 
-1296197820 source:f:\semaine12-hugo\lietrec.c
+1296197820 source:c:\users\hugz2\documents\hugz\iut\cs2\semaine12\lietrec.c
 	<stdio.h>
 	"coniocouleur.h"
 	"lietrec.h"
 
-1296198060 f:\semaine12-hugo\lietrec.h
+1296198060 c:\users\hugz2\documents\hugz\iut\cs2\semaine12\lietrec.h
 	<stdio.h>
 	"coniocouleur.h"
 
-1335977190 source:f:\semaine12-hugo\main.c
-	<stdio.h>
-	<stdlib.h>
-	<conio.h>
-	"util.h"
-	"bateau.h"
-	"parametre.h"
-	"vuev1.h"
-	"lietrec.h"
-	"vueGrille.h"
-
-1314351480 f:\semaine12-hugo\util.h
-	<time.h>
-	<stdlib.h>
-	<stdio.h>
-	<conio.h>
-	<unistd.h>
-	<windows.h>
-	"lietrec.h"
-	"coniocouleur.h"
-
-1336579306 f:\semaine12-hugo\vuev1.h
-	"bateau.h"
-	"parametre.h"
-
-1335370388 f:\semaine12-hugo\vuegrille.h
-
-1335977016 source:f:\semaine12-hugo\menu.c
-	"menu.h"
-
-1335974458 f:\semaine12-hugo\menu.h
-
-1314350880 source:f:\semaine12-hugo\parametre.c
-	"parametre.h"
-	<malloc.h>
-	<string.h>
-	<string.h>
-
-1314351480 source:f:\semaine12-hugo\util.c
-	"util.h"
-
-1335974866 source:f:\semaine12-hugo\vuegrille.c
-	<stdio.h>
-	<stdlib.h>
-	<conio.h>
-	<unistd.h>
-	<windows.h>
-	"lietrec.h"
-	"coniocouleur.h"
-
-1336581394 source:f:\semaine12-hugo\vuev1.c
-	"vuev1.h"
-	<stdio.h>
-	<stdlib.h>
-	<conio.h>
-
-1339604206 source:c:\users\quentin\prog\bataillenavale\bataillenavale\bateau.c
-	"bateau.h"
-	"parametre.h"
-
-1339604188 c:\users\quentin\prog\bataillenavale\bataillenavale\bateau.h
-	"parametre.h"
-
-1339604162 c:\users\quentin\prog\bataillenavale\bataillenavale\parametre.h
-	<stdio.h>
-	"couleurs.h"
-
-1314362820 c:\users\quentin\prog\bataillenavale\bataillenavale\couleurs.h
-	"coniocouleur.h"
-
-1296113100 c:\users\quentin\prog\bataillenavale\bataillenavale\coniocouleur.h
-
-1296116940 source:c:\users\quentin\prog\bataillenavale\bataillenavale\coniocouleur.c
-	<stdio.h>
-	<stdlib.h>
-	<unistd.h>
-	<windows.h>
-	<conio.h>
-	"coniocouleur.h"
-
-1314273720 source:c:\users\quentin\prog\bataillenavale\bataillenavale\couleurs.c
-	<conio.h>
-	<stdlib.h>
-	<stdio.h>
-	<string.h>
-	"couleurs.h"
-
-1335370420 source:c:\users\quentin\prog\bataillenavale\bataillenavale\coup.c
-
-1296197820 source:c:\users\quentin\prog\bataillenavale\bataillenavale\lietrec.c
-	<stdio.h>
-	"coniocouleur.h"
-	"lietrec.h"
-
-1296198060 c:\users\quentin\prog\bataillenavale\bataillenavale\lietrec.h
-	<stdio.h>
-	"coniocouleur.h"
-
-1339604075 source:c:\users\quentin\prog\bataillenavale\bataillenavale\main.c
+1338393088 source:c:\users\hugz2\documents\hugz\iut\cs2\semaine12\main.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
@@ -499,9 +401,8 @@
 	"lietrec.h"
 	"vueGrille.h"
 	"menu.h"
-	"joueur.h"
 
-1314351480 c:\users\quentin\prog\bataillenavale\bataillenavale\util.h
+1314351480 c:\users\hugz2\documents\hugz\iut\cs2\semaine12\util.h
 	<time.h>
 	<stdlib.h>
 	<stdio.h>
@@ -511,14 +412,13 @@
 	"lietrec.h"
 	"coniocouleur.h"
 
-1339603327 c:\users\quentin\prog\bataillenavale\bataillenavale\vuev1.h
+1336579306 c:\users\hugz2\documents\hugz\iut\cs2\semaine12\vuev1.h
 	"bateau.h"
 	"parametre.h"
 
-1339603372 c:\users\quentin\prog\bataillenavale\bataillenavale\vuegrille.h
-	"joueur.h"
+1335370388 c:\users\hugz2\documents\hugz\iut\cs2\semaine12\vuegrille.h
 
-1338392820 source:c:\users\quentin\prog\bataillenavale\bataillenavale\menu.c
+1338392822 source:c:\users\hugz2\documents\hugz\iut\cs2\semaine12\menu.c
 	"menu.h"
 	"vuev1.h"
 	"parametre.h"
@@ -526,18 +426,18 @@
 	<stdlib.h>
 	<string.h>
 
-1338366113 c:\users\quentin\prog\bataillenavale\bataillenavale\menu.h
+1338366114 c:\users\hugz2\documents\hugz\iut\cs2\semaine12\menu.h
 
-1314350880 source:c:\users\quentin\prog\bataillenavale\bataillenavale\parametre.c
+1314350880 source:c:\users\hugz2\documents\hugz\iut\cs2\semaine12\parametre.c
 	"parametre.h"
 	<malloc.h>
 	<string.h>
 	<string.h>
 
-1314351480 source:c:\users\quentin\prog\bataillenavale\bataillenavale\util.c
+1314351480 source:c:\users\hugz2\documents\hugz\iut\cs2\semaine12\util.c
 	"util.h"
 
-1339604171 source:c:\users\quentin\prog\bataillenavale\bataillenavale\vuegrille.c
+1338367510 source:c:\users\hugz2\documents\hugz\iut\cs2\semaine12\vuegrille.c
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
@@ -545,19 +445,10 @@
 	<windows.h>
 	"lietrec.h"
 	"coniocouleur.h"
-	"joueur.h"
 
-1338365442 source:c:\users\quentin\prog\bataillenavale\bataillenavale\vuev1.c
+1337586932 source:c:\users\hugz2\documents\hugz\iut\cs2\semaine12\vuev1.c
 	"vuev1.h"
-	"parametre.h"
 	<stdio.h>
 	<stdlib.h>
 	<conio.h>
-
-1339603916 source:c:\users\quentin\prog\bataillenavale\bataillenavale\joueur.c
-	<stdio.h>
-	<stdlib.h>
-	"joueur.h"
-
-1335974112 c:\users\quentin\prog\bataillenavale\bataillenavale\joueur.h
 

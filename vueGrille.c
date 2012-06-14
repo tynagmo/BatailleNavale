@@ -11,8 +11,6 @@
 #include <windows.h>
 #include "lietrec.h"
 #include "coniocouleur.h"
-#include "joueur.h"
-
 #define KDELTAX 4
 #define KDELTAY 2
 
@@ -63,7 +61,7 @@ void afficherCaractereDansGrille(COLORS pcouleurCaractere,COLORS pcouleurFond,ch
     cprintf("%s",text);
 }
 
-void afficherToutEnTest(Tjoueur pjoueur)
+void afficherToutEnTest()
 {
     int haut =10;
     int gauche =20;
@@ -71,7 +69,7 @@ void afficherToutEnTest(Tjoueur pjoueur)
 
     gotoxy( gauche,haut/2);
     textcolor((BLACK)|(LIGHTCYAN<<4));
-    cprintf("%s %s",pjoueur.Nom, pjoueur.Prenom);
+    cprintf("%s","mettre le nom du joueur");
     afficherGrille(gauche,haut,10,10,LIGHTGREEN );
     afficherGrille(gauche + 80 ,haut,10,10,YELLOW );
 
@@ -83,7 +81,7 @@ void afficherToutEnTest(Tjoueur pjoueur)
     afficherCaractereDansGrille(RED, LIGHTBLUE, ' ', gauche, haut, 4,4 );
     afficherCaractereDansGrille(RED, LIGHTBLUE, ' ', gauche, haut, 4,5 );
 
-    textcolor((WHITE)|(BLACK<<4));
+
 }
 
 
