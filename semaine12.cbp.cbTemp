@@ -47,14 +47,11 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="coup.h" />
-		<Unit filename="joueur.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="joueur.h" />
 		<Unit filename="lietrec.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lietrec.h" />
+		<Unit filename="listePions.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
